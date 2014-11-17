@@ -1,11 +1,9 @@
-source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 
 gem 'rails', '3.2.16'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -20,7 +18,18 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'unicorn'
+gem 'therubyracer'
+gem 'mysql2'
+gem 'tzinfo'
+gem 'jquery-rails', '~> 2.1'
+gem 'haml-rails', '~> 0.4'
+gem 'debugger'
+gem 'spreadsheet'
+gem 'whenever', '~> 0.8.4'
+gem 'nokogiri', '~> 1.6.0'
+
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
